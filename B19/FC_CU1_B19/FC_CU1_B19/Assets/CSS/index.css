@@ -355,7 +355,16 @@ a :hover{
 
     footer a{
         color: #9CA3AF;
+        text-decoration: none;
+    }
 
+    .links{
+        display: flex;
+        gap: 10px   ;
+    }
+
+    .links a{
+        text-decoration: none;
     }
 
     .copyright{
@@ -365,7 +374,7 @@ a :hover{
 
 /* ===== RESPONSIVE ===== */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     #hamburger {
         display: block;
@@ -431,5 +440,3 @@ a :hover{
         display: flex;
     }
 }
-
-
